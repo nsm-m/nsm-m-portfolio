@@ -1,0 +1,155 @@
+//
+
+header {
+
+    border-bottom: 3px solid black;
+}
+
+.hero {
+
+    border-bottom: 3px solid black;
+}
+
+.intro-wrapper {
+
+    background-color: black;
+
+}
+
+.intro h1 {
+    color: #fff;
+}
+
+
+.bio {
+
+    //  border: 1px solid black;
+
+}
+
+
+.links a {
+
+    color: black;
+}
+
+
+.project-window {
+
+    border: 0.5px solid $greyWindowBorder;
+    background-color: #fff;
+}
+
+.window-tab {
+    border-bottom: 1px solid #d0d1d2;
+    background-color: #fff;
+}
+
+.site-url p {
+
+    background-color: $greyUrlInput;
+}
+
+
+// .splide {
+//     // background-color: $test;
+//     background: rgb(11, 11, 11);
+//     background: linear-gradient(135deg, rgba(11, 11, 11, 1) 50%, rgba(255, 255, 255, 1) 50%);
+
+// }
+
+.works-section-title h1 {
+    color: white
+}
+
+.project {
+    border: 1px solid #adff2f;
+}
+
+
+.project-presentation {
+
+    border-top: 3px solid black;
+}
+
+.contact-section-title h2,
+label {
+    color: black;
+}
+
+
+.details,
+.project-title h2 {
+
+    mix-blend-mode: exclusion;
+    color: white;
+
+}
+
+
+
+#carousel-heading {
+
+    mix-blend-mode: exclusion;
+    color: white;
+
+}
+
+.contact-section {}
+
+// #project-title1,
+// #details1 {
+//     background-color: white;
+//     //  background-color: $yellow;
+// }
+
+// #project-title1 h2,
+// #details1 p {
+//     // color: $blue;
+//     color: black;
+// }
+
+
+// #project-title2,
+// #details2 {
+//     // background-color: $blue;
+//     background-color: black;
+
+// }
+
+// #project-title2 h2,
+// #details2 p {
+//     color: white;
+// }
+
+// #project-title3,
+// #details3 {
+//     background-color: black;
+// }
+
+// #project-title3 h2,
+// #details3 p {
+//     //color: $blue;
+//     color: white;
+// }
+
+// #project-title4,
+// #details4 {
+//     // background-color: $green1;
+//   //  background-color: white;
+// }
+
+// #project-title4 h2,
+// #details4 p {
+//     color: black;
+
+// }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: grey !important;
+}
+
+.carousel-indicators {
+    //  background-color: red;
+}

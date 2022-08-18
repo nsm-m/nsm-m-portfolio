@@ -1,0 +1,359 @@
+.project-presentation,
+.project-wrapper,
+.project,
+.project-desktop,
+.project-tablet,
+.project-mobile,
+.row-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.carouseltest {
+
+    padding: 5% 0;
+    margin: 5% 0;
+
+
+}
+
+.carousel-indicators {
+    margin-bottom: 0px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: grey;
+    font-size: 10vw;
+    opacity: 1;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+    width: 0.5em;
+    height: 0.5em;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+
+    color: black;
+}
+
+
+.project-presentation,
+.project-wrapper,
+.project-title,
+.project-specs,
+.project-link {
+    align-items: center;
+}
+
+.project,
+.project-title,
+.project-specs,
+.row-wrap {
+    width: 100%;
+}
+
+.project-title,
+.project-specs,
+.project-specs p,
+.project-link {
+    display: flex;
+}
+
+.project-title {
+    padding: 5%;
+    margin: 0;
+    justify-content: center;
+}
+
+.project-wrapper {
+    width: 90%;
+    margin: 5% 0 5% 0;
+}
+
+.project {
+    margin: 2%;
+    padding: 2%;
+    align-items: center;
+}
+
+.project-specs,
+.project-link {
+    justify-content: center;
+}
+
+.project-specs p {
+    width: 80%;
+    font-size: 0.5em
+}
+
+span p {
+    // padding: 5% 0 5% 10%;
+}
+
+.project-desktop,
+.project-tablet,
+.project-mobile {
+    height: auto;
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.project-title {
+    order: 1;
+}
+
+.details {
+    order: 2;
+    padding: 5%;
+    margin-top: 0px;
+
+}
+
+.project-tablet {
+    order: 4;
+    width: 49%;
+}
+
+.project-desktop {
+    order: 3;
+}
+
+.project-mobile {
+    order: 5;
+    width: 49%;
+}
+
+.project-desktop,
+.project-tablet,
+.project-mobile {
+    position: relative;
+}
+
+.details-desktop,
+.details-mobile,
+.details-tablet {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    // background-color: #fff;
+    ;
+}
+
+.details-desktop p {
+    mix-blend-mode: exclusion;
+    color: white;
+}
+
+
+.carousel-item-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.row {
+    // width: 80%;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 5%;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+//
+//phone
+//
+@media (min-width: 576px) {
+    .row {
+        width: 80%
+    }
+
+    .details {
+        margin-top: var(--bs-gutter-y);
+    }
+
+    .project-row {
+        justify-content: space-between;
+    }
+
+    .project-tablet,
+    .project-mobile {
+        width: 49%;
+    }
+
+    .project-title {
+        order: 1;
+    }
+
+    .project-desktop {
+        order: 2;
+        width: 60%;
+    }
+
+    .details {
+        order: 3;
+        width: 39%;
+        // margin:1em 0 0 0;
+        padding: 5% 0;
+    }
+
+    .project-tablet {
+        order: 4;
+    }
+
+    .project-mobile {
+        order: 5;
+    }
+
+
+}
+
+//
+//tablet
+//
+@media (min-width: 768px) {
+    .row {
+        width: 60%
+    }
+}
+
+//tablet xl laptop
+@media (min-width: 992px) {
+    .carousel-item {
+        //@at-root  width: 80%;
+        //   margin-right: 0;
+    }
+
+    .row {
+        width: 80%
+    }
+
+    .project {
+        align-items: center;
+    }
+
+    .details-mobile,
+    .details-desktop,
+    .details-tablet {}
+
+
+
+
+    .project-title {
+        display: flex;
+        width: 50%;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .details {
+        width: 50%;
+    }
+
+    .project-title {
+        order: 1;
+    }
+
+    .project-tablet {
+        order: 2;
+        margin-top: 0px;
+    }
+
+    .project-desktop {
+        order: 3;
+
+
+        width: 100%;
+
+    }
+
+    .project-mobile {
+        order: 4;
+    }
+
+    .details {
+        order: 5;
+    }
+}
+
+//desktop
+@media (min-width: 1200px) {
+
+    .row {
+        width: 55%;
+    }
+
+    .project-presentation {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .project-wrapper {
+        width: 47%;
+    }
+
+    .carousel-item {
+        // width: 50%;
+    }
+
+    .project-title {
+        width: 29%;
+        word-break: break-word;
+    }
+
+    .project-desktop {
+        order: 2;
+
+        margin-top: 0;
+        width: 70%;
+
+    }
+
+
+    .project-tablet {
+        order: 3;
+        margin-top: 0.5em;
+    }
+
+    .project-mobile,
+    .project-tablet,
+    .details {
+        width: 33%;
+    }
+}
+
+//xxlscreen
+@media (min-width: 1400px) {}

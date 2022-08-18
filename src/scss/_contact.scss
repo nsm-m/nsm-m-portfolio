@@ -1,0 +1,124 @@
+.contact-section {
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+
+.contact-section-title {
+    padding: 5% 0;
+}
+
+input,
+textarea {
+    border: 1px solid grey;
+}
+
+.contact-section,
+.contact {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-section-title h2,
+.contact-text p {
+    color: white;
+}
+
+
+
+label {
+    padding: 4% 0;
+    color: white;
+}
+
+.contact {
+    width: 100%;
+    padding: 5%;
+}
+
+input {
+    width: 80%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+[type=submit] {
+    width: 30%;
+    margin: 5% 0;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    align-self: center;
+}
+
+//wide mobile
+
+@media (min-width:576px) {}
+
+//tablet
+@media (min-width:768px) {
+    .contact-text {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            color: white;
+        }
+
+    }
+
+    .contact-content p {
+        color: white;
+    }
+
+    .contact {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .contact-text,
+    form {
+        width: 50%;
+        padding: 5%;
+
+    }
+
+    form {
+
+        background-color: white;
+    }
+
+    label {
+        color: black;
+    }
+
+    .contact-text {
+        //padding: 5%;
+    }
+}
+
+//laptop
+@media (min-width:992px) {
+
+    form {
+        padding: 3%;
+
+
+    }
+
+
+}
+
+//desktop
+@media (min-width:1200px) {}
+
+//xxlscreen
+@media (min-width:1400px) {}
