@@ -56,6 +56,18 @@ form {
     align-self: center;
 }
 
+.user-email,
+.user-message {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.user-message-input,
+.user-email-input {
+    width: 100%
+}
+
 //wide mobile
 
 @media (min-width:576px) {}

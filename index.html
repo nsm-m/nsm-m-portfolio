@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Portfolio</title>
+    <title>Sma M - Portfolio</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -30,9 +30,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="" class="nav-link">about</a></li>
-                <li><a href="" class="nav-link">works</a></li>
-                <li><a href="" class="nav-link">contact</a></li>
+                <li><a href="#about" class="nav-link">about</a></li>
+                <li><a href="#works" class="nav-link">works</a></li>
+                <li><a href="#contact" class="nav-link">contact</a></li>
             </ul>
         </nav>
     </header>
@@ -49,30 +49,31 @@
 
 
         <div class="links">
-            <a href="">github</a>
+            <a href="https://github.com/nsm-m" target="_blank">github</a>
         </div>
     </section>
 
     <div class="wrapper">
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-wrapper">
                 <div class="about-section-title" id="about-section-title">
                     <h1>about</h1>
                 </div>
 
                 <div class="bio">
+                    <p class="greeting"> Hello !</p>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
-                        pariatur incidunt, accusantium doloremque officia dolore minus
-                        cupiditate porro obcaecati facere.
+                        I'm Sma, I'm a web developer with a background in
+                        Human Sciences and a passion for Art and
+                        Design!
                     </p>
                 </div>
             </div>
 
         </section>
 
-        <section class="splidetest">
+        <section class="splidetest" id="works">
             <h1 id="carousel-heading">works</h1>
             <div class="splide-wrapper">
                 <div class="splide" aria-labelledby="carousel-heading">
@@ -91,8 +92,8 @@
                                             <i class="bi bi-dash-circle"></i>
                                         </span>
                                         <span class="site-url">
-                                            <p><a href="https://myfauxdle.netlify.app"
-                                                    class="url">https://myfauxdle.netlify.app</a>
+                                            <p><a class="url" href="https://myfauxdle.netlify.app"
+                                                    target="_blank">https://myfauxdle.netlify.app</a>
                                             </p>
                                         </span>
                                     </div>
@@ -110,7 +111,7 @@
                                             <i class="bi bi-dash-circle"></i>
                                         </span>
                                         <span class="site-url">
-                                            <p><a href="https://nsm-m.github.io/theplantshop/"
+                                            <p><a href="https://nsm-m.github.io/theplantshop/" target="_blank"
                                                     class="url">https://nsm-m.github.io/theplantshop/</a>
                                             </p>
                                         </span>
@@ -128,7 +129,7 @@
                                             <i class="bi bi-dash-circle"></i>
                                         </span>
                                         <span class="site-url">
-                                            <p><a href="https://nsm-m.github.io/eshop/"
+                                            <p><a href="https://nsm-m.github.io/eshop/" target="_blank"
                                                     class="url">https://nsm-m.github.io/eshop/</a>
                                             </p>
                                         </span>
@@ -146,7 +147,7 @@
                                             <i class="bi bi-dash-circle"></i>
                                         </span>
                                         <span class="site-url">
-                                            <p><a href="https://mynytapp.netlify.app/"
+                                            <p><a href="https://mynytapp.netlify.app/" target="_blank"
                                                     class="url">https://mynytapp.netlify.app//</a>
                                             </p>
                                         </span>
@@ -164,7 +165,7 @@
     </div>
     <footer>
 
-        <section class="contact-section">
+        <section class="contact-section" id="contact">
 
             <div class="contact">
 
@@ -174,31 +175,25 @@
 
                     </div>
                     <div class="contact-content">
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptas illo at
-                            aliquid,
-                            laudantium
-                            nesciunt pariatur molestiae inventore quam facilis voluptatibus.</p>
+                        <p> Want to collaborate or have any question?</p>
+                        <p> Just use this form!</p>
                     </div>
                 </div>
 
-                <form class="contact-form">
-
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                    <label for="country">Country</label>
-                    <input type="email" id="email" name="email" placeholder="Your email..">
 
 
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:200px"></textarea>
 
-                    <input type="submit" value="Submit">
-
+                <form class="contact-form" action="https://formspree.io/f/myyvdzgq" method="POST">
+                    <label class="user-email">
+                        Your email:
+                        <input class="user-email-input" type="email" name="email">
+                    </label>
+                    <label class="user-message">
+                        Your message:
+                        <textarea class="user-message-input" name="message" rows="10"></textarea>
+                    </label>
+                    <!-- your other form fields go here -->
+                    <button type="submit">Send</button>
                 </form>
             </div>
         </section>

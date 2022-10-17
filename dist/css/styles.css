@@ -297,6 +297,18 @@ form {
   align-self: center;
 }
 
+.user-email,
+.user-message {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.user-message-input,
+.user-email-input {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .contact-text {
     display: flex;
@@ -484,15 +496,29 @@ span p {
   font-size: 0.5em;
 }
 
+@media (max-width: 300px) {
+  .intro h1 {
+    font-size: 2.5vh;
+    word-break: break-word;
+  }
+  .projects h1 {
+    font-size: 5em;
+  }
+}
 @media (min-width: 300px) {
   .intro h1 {
-    font-size: 7vh;
+    font-size: 3vh;
+    word-break: break-word;
   }
   .projects h1 {
     font-size: 5em;
   }
 }
 @media (min-width: 450px) {
+  .intro h1 {
+    font-size: 3.5vh;
+    word-break: break-word;
+  }
   .projects h1 {
     font-size: 6em;
   }
