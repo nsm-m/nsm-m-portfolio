@@ -27,9 +27,10 @@
 .about-section-title h1,
 .projects h1,
 .project-title h2,
-.contact-section-title {
+.contact-section-title,
+#carousel-heading {
     font-family: $titles;
-    // font-size: 2rem;
+    font-size: 2rem;
 }
 
 label,

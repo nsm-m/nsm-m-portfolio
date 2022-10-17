@@ -14,12 +14,14 @@
 }
 
 #carousel-heading {
-    margin: 5%;
-    padding: 5%;
-
     mix-blend-mode: exclusion;
     color: white;
-    font-size: 2em;
+    // font-size: 2em;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    font-family: $titles;
 }
 
 .test {

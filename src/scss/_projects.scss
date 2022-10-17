@@ -38,7 +38,16 @@
         padding-left: 3%;
         border-radius: 15px;
         text-transform: lowercase;
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
     }
+}
+
+.url {
+    color: red
 }
 
 .splide__slide img {
