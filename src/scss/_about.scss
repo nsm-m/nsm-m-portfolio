@@ -1,13 +1,10 @@
 .about,
 .about-wrapper {
     display: flex;
-
 }
 
 .about-wrapper {
-
     flex-direction: column;
-
 }
 
 .about {
@@ -20,7 +17,6 @@
 }
 
 .about-section-title {
-
     display: flex;
     justify-content: center;
 
@@ -34,7 +30,7 @@
     margin: 5% 0;
     padding: 5%;
 
-    p {}
+ 
 
 }
 
@@ -52,10 +48,16 @@
 }
 
 //laptop
-@media (min-width:992px) {}
+@media (min-width:992px) {
+    //
+}
 
 //desktop
-@media (min-width:1200px) {}
+@media (min-width:1200px) {
+    //
+}
 
 //xxlscreen
-@media (min-width:1400px) {}
+@media (min-width:1400px) {
+    //
+}

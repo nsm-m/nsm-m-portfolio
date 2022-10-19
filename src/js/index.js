@@ -15,8 +15,10 @@ document.addEventListener('DOMContentLoaded', function () {
     //new Splide('.splide').mount();
     var splide =  new Splide('.splide', {
         type: 'loop',
-      //  height: '9rem',
+       
+     
         perPage: 1,
+        perMove:1,
         breakpoints: {
             820: {
                // height: '6rem',
