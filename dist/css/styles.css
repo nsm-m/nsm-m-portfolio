@@ -482,7 +482,7 @@ footer {
 .contact-section-title h2,
 #carousel-heading {
   font-family: "Staatliches", cursive;
-  font-size: 2rem;
+  font-size: 3.5rem;
 }
 
 .contact-content p {
@@ -546,7 +546,7 @@ span p {
 .contact-section-title h2,
 #carousel-heading {
     font-family: "Staatliches", cursive;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
 }
 @media (min-width: 450px) {
@@ -558,7 +558,7 @@ span p {
 .contact-section-title h2,
 #carousel-heading {
     font-family: "Staatliches", cursive;
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
 }
 @media (min-width: 576px) {
@@ -592,7 +592,7 @@ span p {
 .contact-section-title h2,
 #carousel-heading {
     font-family: "Staatliches", cursive;
-    font-size: 6.5rem;
+    font-size: 6rem;
   }
 }
 @media (min-width: 992px) {
@@ -606,7 +606,7 @@ span p {
 .contact-section-title h2,
 #carousel-heading {
     font-family: "Staatliches", cursive;
-    font-size: 7.5rem;
+    font-size: 6.5rem;
   }
 }
 @media (min-width: 1200px) {
@@ -623,7 +623,7 @@ span p {
 .contact-section-title h2,
 #carousel-heading {
     font-family: "Staatliches", cursive;
-    font-size: 8rem;
+    font-size: 7rem;
   }
 }
 @media (min-width: 1400px) {
@@ -634,17 +634,6 @@ span p {
     font-size: 10em;
   }
 }
-.project-presentation,
-.project-wrapper,
-.project,
-.project-desktop,
-.project-tablet,
-.project-mobile,
-.row-wrap {
-  display: flex;
-  flex-direction: column;
-}
-
 .carousel-inner {
   height: 100%;
 }
