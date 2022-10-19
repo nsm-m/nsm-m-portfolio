@@ -30,13 +30,27 @@
     margin: 5% 0;
     padding: 5%;
 
- 
+    margin: 5% 0;
+    padding: 5%;
+
+    p {
+        font-size: 2em;
+    }
 
 }
 
 
+
+
 //wide mobile
-@media (min-width:576px) {}
+@media (min-width:576px) {
+
+    .bio {
+        p {
+            font-size: 2.5em;
+        }
+    }
+}
 
 //tablet
 @media (min-width:768px) {
@@ -45,19 +59,44 @@
         flex-direction: row;
 
     }
+
+    .bio {
+        p {
+            font-size: 3em;
+        }
+
+    }
 }
 
 //laptop
 @media (min-width:992px) {
+
     //
+    .bio {
+        p {
+            font-size: 3.5em;
+        }
+    }
 }
 
 //desktop
 @media (min-width:1200px) {
+
     //
+    .bio {
+        p {
+            font-size: 4em;
+        }
+    }
 }
 
 //xxlscreen
 @media (min-width:1400px) {
+
     //
+    .bio {
+        p {
+            font-size: 4.5em;
+        }
+    }
 }

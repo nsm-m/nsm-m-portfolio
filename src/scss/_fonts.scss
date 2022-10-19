@@ -12,9 +12,9 @@
 //hero
 .intro h1 {
     // $font-family2 4 6? 11 12 16
-     font-family: $hero;
+    font-family: $hero;
     //font-family: $test1;
-        text-transform: uppercase;
+    text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 3rem;
 
@@ -26,11 +26,13 @@
 //titles
 
 .about-section-title h1,
-.projects h1,
-.project-title h2,
-.contact-section-title,
+.contact-section-title h2,
 #carousel-heading {
     font-family: $titles;
+    font-size: 2rem;
+}
+
+.contact-content p {
     font-size: 2rem;
 }
 
@@ -71,7 +73,7 @@ span {
 }
 
 
-.buttons i {}
+
 
 
 
@@ -116,9 +118,6 @@ span {
         word-break: break-word;
     }
 
-    .projects h1 {
-        font-size: 5em;
-    }
 }
 
 
@@ -129,8 +128,13 @@ span {
         word-break: break-word;
     }
 
-    .projects h1 {
-        font-size: 5em;
+
+
+    .about-section-title h1,
+    .contact-section-title h2,
+    #carousel-heading {
+        font-family: $titles;
+        font-size: 3.5rem;
     }
 }
 
@@ -141,12 +145,11 @@ span {
         word-break: break-word;
     }
 
-    .projects h1 {
-        font-size: 6em;
-    }
-
-    .project-title h2 {
-        // font-size: 4em;
+    .about-section-title h1,
+    .contact-section-title h2,
+    #carousel-heading {
+        font-family: $titles;
+        font-size: 4.5rem;
     }
 
 }
@@ -166,12 +169,11 @@ span {
         font-size: 1.4em;
     }
 
-    .projects h1 {
-        font-size: 6em;
-    }
-
-    .project-title h2 {
-        // font-size: 5em;
+    .about-section-title h1,
+    .contact-section-title h2,
+    #carousel-heading {
+        font-family: $titles;
+        font-size: 5.5rem;
     }
 }
 
@@ -189,13 +191,13 @@ span {
         font-size: 1.5em;
     }
 
-    .projects h1 {
 
-        font-size: 9em;
-    }
 
-    .project-title h2 {
-        font-size: 8em;
+    .about-section-title h1,
+    .contact-section-title h2,
+    #carousel-heading {
+        font-family: $titles;
+        font-size: 6.5rem;
     }
 
 }
@@ -213,13 +215,11 @@ span {
         font-size: 9vh;
     }
 
-    .projects h1 {
-
-        font-size: 10em;
-    }
-
-    .project-title h2 {
-        font-size: 3.2em;
+    .about-section-title h1,
+    .contact-section-title h2,
+    #carousel-heading {
+        font-family: $titles;
+        font-size: 7.5rem;
     }
 }
 
@@ -236,6 +236,13 @@ span {
     .projects h1 {
 
         font-size: 10em;
+    }
+
+    .about-section-title h1,
+    .contact-section-title h2,
+    #carousel-heading {
+        font-family: $titles;
+        font-size: 8rem;
     }
 }
 

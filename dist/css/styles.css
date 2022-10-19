@@ -176,11 +176,39 @@ label {
 .bio {
   margin: 5% 0;
   padding: 5%;
+  margin: 5% 0;
+  padding: 5%;
+}
+.bio p {
+  font-size: 2em;
 }
 
+@media (min-width: 576px) {
+  .bio p {
+    font-size: 2.5em;
+  }
+}
 @media (min-width: 768px) {
   .about {
     flex-direction: row;
+  }
+  .bio p {
+    font-size: 3em;
+  }
+}
+@media (min-width: 992px) {
+  .bio p {
+    font-size: 3.5em;
+  }
+}
+@media (min-width: 1200px) {
+  .bio p {
+    font-size: 4em;
+  }
+}
+@media (min-width: 1400px) {
+  .bio p {
+    font-size: 4.5em;
   }
 }
 header,
@@ -321,7 +349,7 @@ form {
   .contact-text h2 {
     color: white;
   }
-  .contact-content p {
+  .ontent p {
     color: white;
   }
   .contact {
@@ -451,11 +479,13 @@ footer {
 }
 
 .about-section-title h1,
-.projects h1,
-.project-title h2,
-.contact-section-title,
+.contact-section-title h2,
 #carousel-heading {
   font-family: "Staatliches", cursive;
+  font-size: 2rem;
+}
+
+.contact-content p {
   font-size: 2rem;
 }
 
@@ -506,17 +536,17 @@ span p {
     font-size: 2.5vh;
     word-break: break-word;
   }
-  .projects h1 {
-    font-size: 5em;
-  }
 }
 @media (min-width: 300px) {
   .intro h1 {
     font-size: 3vh;
     word-break: break-word;
   }
-  .projects h1 {
-    font-size: 5em;
+  .about-section-title h1,
+.contact-section-title h2,
+#carousel-heading {
+    font-family: "Staatliches", cursive;
+    font-size: 3.5rem;
   }
 }
 @media (min-width: 450px) {
@@ -524,8 +554,11 @@ span p {
     font-size: 3.5vh;
     word-break: break-word;
   }
-  .projects h1 {
-    font-size: 6em;
+  .about-section-title h1,
+.contact-section-title h2,
+#carousel-heading {
+    font-family: "Staatliches", cursive;
+    font-size: 4.5rem;
   }
 }
 @media (min-width: 576px) {
@@ -538,8 +571,11 @@ span p {
   .links a {
     font-size: 1.4em;
   }
-  .projects h1 {
-    font-size: 6em;
+  .about-section-title h1,
+.contact-section-title h2,
+#carousel-heading {
+    font-family: "Staatliches", cursive;
+    font-size: 5.5rem;
   }
 }
 @media (min-width: 768px) {
@@ -552,11 +588,11 @@ span p {
   .links a {
     font-size: 1.5em;
   }
-  .projects h1 {
-    font-size: 9em;
-  }
-  .project-title h2 {
-    font-size: 8em;
+  .about-section-title h1,
+.contact-section-title h2,
+#carousel-heading {
+    font-family: "Staatliches", cursive;
+    font-size: 6.5rem;
   }
 }
 @media (min-width: 992px) {
@@ -566,11 +602,11 @@ span p {
   .intro h1 {
     font-size: 9vh;
   }
-  .projects h1 {
-    font-size: 10em;
-  }
-  .project-title h2 {
-    font-size: 3.2em;
+  .about-section-title h1,
+.contact-section-title h2,
+#carousel-heading {
+    font-family: "Staatliches", cursive;
+    font-size: 7.5rem;
   }
 }
 @media (min-width: 1200px) {
@@ -582,6 +618,12 @@ span p {
   }
   .projects h1 {
     font-size: 10em;
+  }
+  .about-section-title h1,
+.contact-section-title h2,
+#carousel-heading {
+    font-family: "Staatliches", cursive;
+    font-size: 8rem;
   }
 }
 @media (min-width: 1400px) {
