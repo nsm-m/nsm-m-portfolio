@@ -47,8 +47,9 @@ header {
     flex-direction: column;
 
     h1 {
-
+font-size:3em;
         height: calc(100%/3);
+
         // border-bottom: 2px solid white;
         display: flex;
         align-items: center;
@@ -58,7 +59,12 @@ header {
     }
 
 
-}
+ 
+
+
+
+
+
 
 .intro {}
 
