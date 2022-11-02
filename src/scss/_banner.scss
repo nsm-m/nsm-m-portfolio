@@ -46,12 +46,17 @@ header {
     h1 {
 
         height: calc(100%/3);
-        border-bottom: 2px solid white;
+        // border-bottom: 2px solid white;
         display: flex;
         align-items: center;
+        justify-content: center;
 
     }
+
+
 }
+
+.intro {}
 
 
 .links {

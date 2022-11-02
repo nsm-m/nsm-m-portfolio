@@ -1,1 +1,1 @@
-new Splide(".splide",{type:"loop",height:"9rem",perPage:2,breakpoints:{640:{height:"6rem"}}}),document.addEventListener("DOMContentLoaded",(function(){new Splide(".splide").mount()}));
+document.addEventListener("DOMContentLoaded",(function(){new Splide(".splide",{type:"loop",perPage:1,perMove:1,breakpoints:{820:{perPage:1},1020:{perPage:2,gap:10},2400:{perPage:3,gap:10}}}).mount()}));
