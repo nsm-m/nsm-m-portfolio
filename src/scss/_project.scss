@@ -22,7 +22,7 @@
 }
 
 .carousel-indicators [data-bs-target] {
-    background-color: black;
+    background-color: $black;
     border-top: none;
     border-bottom: none;
 
@@ -46,7 +46,7 @@
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
 
-    color: black;
+    color: $black;
 }
 
 
@@ -107,7 +107,7 @@ span p {
 .project-tablet,
 .project-mobile {
     height: auto;
-    border: 1px solid black;
+    border: 1px solid $black;
     padding: 0px;
 }
 
