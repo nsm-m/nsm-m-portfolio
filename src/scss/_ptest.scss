@@ -14,8 +14,8 @@
 }
 
 #carousel-heading {
-    mix-blend-mode: exclusion;
-    color: white;
+  //  mix-blend-mode: exclusion;
+   // color: $black;
     // font-size: 2em;
     width: 100%;
     justify-content: center;
@@ -40,11 +40,11 @@
 }
 
 .splide__pagination__page {
-    background: black;
+    background: $black;
 }
 
 .splide__pagination__page.is-active {
-    background: black;
+    background: $black;
 }
 
 .splide__arrow svg {
@@ -55,10 +55,10 @@
 
 .splide__arrow:disabled {
     opacity: 0.5;
-    background: black;
+    background: $black;
 }
 
 .splide__arrow {
     opacity: 0.5;
-    background: black;
+    background: $black;
 }
