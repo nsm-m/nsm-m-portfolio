@@ -37,22 +37,24 @@ header {
     display: flex;
     height: 100%;
     background-color: $black;
+    justify-content: center;
 }
 
 .intro {
-    word-break: break-word;
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     width: 100%;
     flex-direction: column;
+    align-items: center;
+    width: 90%;
 
     h1 {
         // font-size: 3em;
-        height: calc(100%/3);
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        margin-left: 10%;
+        // height: calc(100%/3);
+        // display: flex;
+        // align-items: center;
+        // justify-content: flex-start;
+        // margin-left: 10%;
         color: white;
 
     }
@@ -62,6 +64,17 @@ header {
     }
 
 }
+
+.greeting {
+    display: flex;
+    width: 90%;
+    margin: 5%;
+    padding: 5% 0;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+}
+
 
 
 .links {
@@ -86,7 +99,11 @@ header {
 // @media (min-width: 768px) {}
 
 // //laptop
-// @media (min-width: 992px) {}
+ @media (min-width: 992px) {
+    .bio p{
+        font-size:2em;
+    } 
+ }
 
 // //desktop
 // @media (min-width: 1200px) {}

@@ -11,13 +11,14 @@
     font-family: $hero;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-size: 1.5rem;
+    font-size: 3em;
+
 }
 
 
 //titles
 
-.about-section-title h1,
+.greeting h1,
 .contact-section-title h2,
 #carousel-heading {
     font-family: $titles;
@@ -112,14 +113,11 @@ span {
 
 
 @media (min-width: 300px) {
-    .intro h1 {
-        font-size: 1.7em;
-
-    }
+    .intro h1 {}
 
 
 
-    .about-section-title h1,
+    .greeting h1,
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
@@ -129,12 +127,9 @@ span {
 
 @media (min-width: 450px) {
 
-    .intro h1 {
-        font-size: 4.5vh;
-        word-break: break-word;
-    }
+    .intro h1 {}
 
-    .about-section-title h1,
+    .greeting h1,
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
@@ -150,15 +145,13 @@ span {
         font-size: 1.4em;
     }
 
-    .intro h1 {
-        font-size: 8vh;
-    }
+
 
     .links a {
         font-size: 1.4em;
     }
 
-    .about-section-title h1,
+    .greeting h1,
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
@@ -172,9 +165,7 @@ span {
         font-size: 1.6em;
     }
 
-    .intro h1 {
-        font-size: 8vh;
-    }
+
 
     .links a {
         font-size: 1.5em;
@@ -182,7 +173,7 @@ span {
 
 
 
-    .about-section-title h1,
+    .greeting h1,
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
@@ -200,11 +191,9 @@ span {
         font-size: 2.3em;
     }
 
-    .intro h1 {
-        font-size: 9vh;
-    }
 
-    .about-section-title h1,
+
+    .greeting h1,
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
@@ -218,16 +207,14 @@ span {
         font-size: 2em;
     }
 
-    .intro h1 {
-        font-size: 10vh;
-    }
+
 
     .projects h1 {
 
         font-size: 10em;
     }
 
-    .about-section-title h1,
+    .greeting h1,
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
@@ -237,9 +224,7 @@ span {
 
 //xxlscreen
 @media (min-width: 1400px) {
-    .intro h1 {
-        font-size: 11vh;
-    }
+    .intro h1 {}
 
     .projects h1 {
 

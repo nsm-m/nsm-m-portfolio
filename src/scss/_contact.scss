@@ -45,6 +45,7 @@ form {
     display: flex;
     flex-direction: column;
     margin: 5% 0;
+    width: 80%;
 }
 
 [type=submit] {
@@ -68,6 +69,15 @@ form {
     border: none;
 }
 
+
+.user-email-input {
+    width: 70%;
+}
+
+.user-message-input {
+    width: 90%;
+}
+
 //wide mobile
 
 @media (min-width:576px) {}
@@ -79,7 +89,7 @@ form {
         flex-direction: column;
         background-color: $black;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
 
         h2 {
             color: white;
@@ -120,6 +130,10 @@ form {
 //laptop
 @media (min-width:992px) {
 
+    .contact {
+        padding: 2%;
+    }
+
     form {
         padding: 3%;
 
@@ -132,8 +146,12 @@ form {
         border: 1px solid $black;
     }
 
-    .user-email-input{
-        width:70%;
+    .user-email-input {
+        width: 70%;
+    }
+
+    .intro {
+        flex-direction: row;
     }
 }
 
