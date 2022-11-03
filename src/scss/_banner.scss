@@ -17,13 +17,12 @@ nav {
             a {
                 text-decoration: none;
                 text-transform: uppercase;
-                color:green;
             }
         }
     }
 }
 
-.nav-link{}
+
 
 header {
     height: 5vh;
@@ -37,6 +36,7 @@ header {
     width: 85vw;
     display: flex;
     height: 100%;
+    background-color: $black;
 }
 
 .intro {
@@ -47,26 +47,21 @@ header {
     flex-direction: column;
 
     h1 {
-font-size:3em;
+        // font-size: 3em;
         height: calc(100%/3);
-
-        // border-bottom: 2px solid white;
         display: flex;
         align-items: center;
         justify-content: flex-start;
         margin-left: 10%;
+        color: white;
 
     }
 
+    p {
+        color: white;
+    }
 
- 
-
-
-
-
-
-
-.intro {}
+}
 
 
 .links {
@@ -83,17 +78,18 @@ font-size:3em;
     }
 }
 
-//wide mobile
-@media (min-width: 576px) {}
 
-//tablet
-@media (min-width: 768px) {}
+// //wide mobile
+// @media (min-width: 576px) {}
 
-//laptop
-@media (min-width: 992px) {}
+// //tablet
+// @media (min-width: 768px) {}
 
-//desktop
-@media (min-width: 1200px) {}
+// //laptop
+// @media (min-width: 992px) {}
 
-//xxlscreen
-@media (min-width: 1400px) {}
+// //desktop
+// @media (min-width: 1200px) {}
+
+// //xxlscreen
+// @media (min-width: 1400px) {}

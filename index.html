@@ -6,6 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Nasma M - Portfolio</title>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2FFH7SWM1N"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-2FFH7SWM1N');
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -40,7 +53,6 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#about" class="nav-link">about</a></li>
           <li><a href="#works" class="nav-link">works</a></li>
           <li><a href="#contact" class="nav-link">contact</a></li>
         </ul>
@@ -50,11 +62,19 @@
     <section class="hero">
       <div class="intro-wrapper">
         <div class="intro">
-          <h1>Web</h1>
-          <h1>Design</h1>
+             <div class="about-wrapper">
+               <div class="about-section-title" id="about-section-title">
+                 <!-- <h1>about</h1> -->
+                 <h1 class="greeting">Hello !</h1>
+               </div>
 
-          <h1>Development</h1>
-
+               <div class="bio">
+                 <p>
+                   I'm Nasma, I'm a web developer with a background in Human Sciences
+                   and a passion for Art and Design!
+                 </p>
+               </div>
+               </div>div>
         </div>
       </div>
 
@@ -64,23 +84,9 @@
     </section>
 
     <div class="wrapper">
-      <section class="about" id="about">
-        <div class="about-wrapper">
-          <div class="about-section-title" id="about-section-title">
-            <h1>about</h1>
-          </div>
 
-          <div class="bio">
-            <p class="greeting">Hello !</p>
-            <p>
-              I'm Sma, I'm a web developer with a background in Human Sciences
-              and a passion for Art and Design!
-            </p>
-          </div>
-        </div>
-      </section>
 
-      <section class="splidetest" id="works">
+      <section class="works-wrapper" id="works">
         <h1 id="carousel-heading">works</h1>
         <div class="splide-wrapper">
           <div class="splide" aria-labelledby="carousel-heading">
