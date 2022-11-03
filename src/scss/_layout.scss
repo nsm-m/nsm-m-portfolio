@@ -12,6 +12,12 @@
     height: auto;
 }
 
+.greeting,
+.bio, .contact-text {
+    margin: 5%;
+    padding: 5% 0;
+}
+
 //wide mobile
 @media (min-width:576px) {}
 

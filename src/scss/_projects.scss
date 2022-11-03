@@ -72,9 +72,7 @@
     bottom: -10%;
 }
 
-// .splide__arrow svg {
-//     fill: white !important;
-// }
+
 
 .splide__slide img {
     width: 100%;
@@ -105,9 +103,7 @@
     position: relative
 }
 
-.splide__track {
-    // margin: 5%;
-}
+
 
 .splide__arrow {
     width: 1.5em;
@@ -147,16 +143,24 @@
 // @media (min-width: 576px) {}
 
 // //tablet
-// @media (min-width: 768px) {}
+ @media (min-width: 768px) {
+
+    .splide__arrow {
+        width: 2em;
+        height: 2em;
+        opacity: 1;
+        background: white;
+    }
+}
 
 // //laptop
 @media (min-width: 992px) {
 
     .works-wrapper {
-     
+
         margin: 2%;
         padding: 2%;
-     
+
     }
 
     #carousel-heading {

@@ -8,14 +8,10 @@ header {
 }
 
 .hero {
-
     border-bottom: 3px solid $black;
 }
 
 .intro-wrapper {
-
-    //  background-color: $black;
-
     background-color: #fff;
 
 }
@@ -83,14 +79,7 @@ label {
 
 }
 
-
-
-#carousel-heading,
-#about-section-title {
-
-    // mix-blend-mode: exclusion;
-
-    //  mix-blend-mode: exclusion;
+#carousel-heading{
     color: $black;
 }
 
