@@ -11,18 +11,18 @@
     font-family: $hero;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-size: 3em;
+
 
 }
 
 
 //titles
 
-.greeting h1,
+
 .contact-section-title h2,
 #carousel-heading {
     font-family: $titles;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
 }
 
 .contact-content p {
@@ -88,7 +88,10 @@ span {
 @media (min-width: 300px) {
     .intro h1 {}
 
-    .greeting h1,
+    .greeting h1 {
+        font-size: 2em;
+    }
+
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
@@ -100,7 +103,7 @@ span {
 
     .intro h1 {}
 
-    .greeting h1,
+
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
@@ -122,11 +125,15 @@ span {
         font-size: 1.4em;
     }
 
-    .greeting h1,
+
+    .greeting h1 {
+        font-size: 3em;
+    }
+
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
-        font-size: 5.5rem;
+        font-size: 5.5em;
     }
 }
 
@@ -143,8 +150,11 @@ span {
     }
 
 
+    .greeting h1 {
+        font-size: 4em;
+    }
 
-    .greeting h1,
+
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
@@ -164,7 +174,7 @@ span {
     .contact-section-title h2,
     #carousel-heading {
         font-family: $titles;
-        font-size: 6.5rem;
+        font-size: 4.5rem;
     }
 }
 

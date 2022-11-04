@@ -13,16 +13,37 @@
 }
 
 .greeting,
-.bio, .contact-text {
+.bio,
+.contact-text {
     margin: 5%;
     padding: 5% 0;
 }
 
 //wide mobile
-@media (min-width:576px) {}
+@media (min-width:576px) {
+
+    header {
+        height: 7vh;
+    }
+
+    .greeting,
+    .bio,
+    .contact-text {
+        margin: 3%;
+        padding: 3% 0;
+    }
+}
 
 //tablet
-@media (min-width:768px) {}
+@media (min-width:768px) {
+
+    .greeting,
+    .bio,
+    .contact-text {
+        margin: 2%;
+        padding: 2% 0;
+    }
+}
 
 //laptop
 @media (min-width:992px) {
